@@ -78,4 +78,8 @@ router.route('/login').post((req, res, next) => {
     })
 });
 
+router.route('/init').get((req, res) => {
+    res.status(200).send("init");
+});
+
 module.exports = router;
