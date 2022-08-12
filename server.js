@@ -39,7 +39,7 @@ mongoose.connect(
     .catch(err => console.log(err));
 
 app.get('/', (req, res) => {
-    res.send('Test')
+    res.send('Surge Global Assignment - Backend')
 })
 
 // Rotes
